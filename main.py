@@ -49,6 +49,7 @@ async def chat(request: ChatRequest):
     chat_history.append({"role": "assistant", "content": llm_response.content})
     
     return {"response": llm_response.content}
+    print("chat 실행됨")
 
 # /generate-ppt 엔드포인트
 @app.post("/generate-ppt", response_model=PPTResponse)
