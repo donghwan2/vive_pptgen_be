@@ -1,0 +1,9 @@
+langchain
+langchain-openai
+streamlit
+python-dotenv
+langchain-anthropic 
+python-pptx
+python-docx
+fastapi
+uvicorn
