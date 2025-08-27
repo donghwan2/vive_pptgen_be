@@ -20,4 +20,8 @@ jobs:
        username: ${{ secrets.SERVER_USER }}
        key: ${{ secrets.SERVER_KEY }}
        script: |
+         cd ~/vive_pptgen_be
+         git pull
+         chmod +x deploy.sh
+         ./deploy.sh
          exit 0
