@@ -29,7 +29,9 @@ app.add_middleware(
         "http://43.202.0.119:8080",
         "http://localhost:3000",       # React 개발 서버
         "http://127.0.0.1:3000",       # 로컬호스트 대안
-        "http://10.34.11.38:3000"      # 네트워크 주소
+        "http://10.34.11.38:3000",      # 네트워크 주소
+        "http://www.aible.site",
+        "http://aible.site",
     ],
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "DELETE"],
