@@ -32,6 +32,7 @@ app.add_middleware(
         "http://10.34.11.38:3000",      # 네트워크 주소
         "http://www.aible.site",
         "http://aible.site",
+        "https://aible.site",
         "https://www.aible.site",
     ],
     allow_credentials=True,
