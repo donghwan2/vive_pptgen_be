@@ -100,7 +100,7 @@ async def generate_ppt(request: PPTRequest):
 # 서버 상태 확인용 엔드포인트 추가
 @app.get("/")
 async def root():
-    return {"message": "PPT Generator API is running!!!"}
+    return {"message": "PPT Generator API is running!!!!"}
 
 @app.get("/health")
 async def health_check():
